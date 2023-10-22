@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Thewitcher', 'die nasty';
+    src: url('die nasty.otf') format('opentype'), url('Thewitcher-jnOj.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+p {
+    margin-top: 30px;
+    color: silver;
+    font-size: 20px;
+   
+}
+
+.frase {
+
+    margin-left: 500px;
+    width: 255px;
+    height: 150px;
+
+}
+
+body {
+    background-image: url(Imagens/plano\ de\ fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+h2 {
+    font-family: 'Thewitcher', 'die nasty';
+    font-style: normal;
+
+}
+
+.botao01 {
+
+    margin-left: 300px;
+    margin-top: 80px;
+
+}
+
+.botao01:hover {
+    transform: scale(1.2);
+    transition: all 0.1s;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 rgb(0, 0, 0);
+    border-radius: 200px;
+}
+
+.botao02 {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.botao02:hover {
+    transform: scale(1.2);
+    transition: all 0.1s;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0px rgb(0, 0, 0);
+    border-radius: 200px;
+}
+
+.botao03 {
+    margin-top: 40px;
+    margin-left: 40px;
+
+
+}
+
+.botao03:hover {
+    transform: scale(1.2);
+    transition: all 0.1s;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 rgb(0, 0, 0);
+    border-radius: 200px;
+}
+
+.botoes {
+    display: flex;
+}
+
+.indentificadorBot01 {
+    margin-left: 65px;
+    color: white;
+}
+
+.indentificadorBot02 {
+    margin-left: 25px;
+    color: white;
+}
+
+.indentificadorBot03 {
+    margin-left: 70px;
+    color: white;
+}

@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fonthp';
+    src: url('fonts/HARRYP__.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+   background-image: linear-gradient(#194C5D, #090B08, #60A5C2);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.part1{
+    color: white;
+    margin-left: 490px;
+}
+.part2{
+    color: white;
+    font-family: 'fonthp';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+h2{
+    color: white;
+}
+.Título{
+    display: flex;
+    
+}
+.sobre{
+    display: flex;
+}
+.imagem{
+    margin-left: 60px;
+}
+.sinopse{
+    color: white;
+    background-color: rgb(58, 57, 57);
+    width: 600px;
+    border-radius: 20px;
+}
+
+.nomefilme{
+    font-family: 'fonthp';
+    font-size: 40px;
+}
+.elenco {
+    display: block;
+    margin-left: 140px;
+    margin-top: 20px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    height: 320px;
+    width: 320px;
+}
+.images {
+    display: flex;
+}
+.image01 {
+    margin-left: 30px;
+}
+.image01:hover {
+    transform: scale(0.9);
+    transition: all 0.1s;
+}
+.nome01 {
+    margin-left: 5px;
+    color: white;
+}
+.person01 {
+    color: white;
+    font-family: 'fonthp';
+    margin-left: 20px;
+    font-size: 20px;
+}
+.sobre02{
+    display: flex;
+}

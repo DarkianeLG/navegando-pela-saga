@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+@font-face {
+    font-family: 'Thewitcher', 'die nasty', 'fontgow';
+    src: url('die nasty.otf') format('opentype'), url('Thewitcher-jnOj.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body {
+    background-image: url(imagens/plano\ de\ fundo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Audiowide', cursive;
+    text-align: center;
+
+}
+
+p {
+    font-size: 20px;
+    color: white;
+    font-family: 'Audiowide', cursive;
+    text-align: center;
+}
+
+.botaoTW {
+    margin-top: 100px;
+    margin-left: 60px;
+    margin: auto;
+}
+
+.botao {
+    font-family: 'Thewitcher', 'die nasty';
+}
+
+.botaoHP {
+    margin-top: 150px;
+    margin-left: 90px;
+    margin: auto;
+}
+.botaoGoW {
+    margin-top: 80px;
+    margin-left: 90px;
+    margin: auto;
+    
+}
+
+
+.botaoHP:hover {
+
+    transform: scale(1.2);
+    transition: all 0.1s;
+
+}
+.botaoGoW:hover {
+
+    transform: scale(1.2);
+    transition: all 0.1s;
+
+}
+
+.botaoTW:hover {
+
+    transform: scale(1.2);
+    transition: all 0.1s;
+
+}
+
+.sagasLinha1 {
+    display: flex;
+}
+.autoriaPlanodefundo{
+    text-align: center;
+    margin-top: 100px;
+}
+.autoriaPF{
+    color: silver;
+    text-decoration: none;
+}
+
+.autoriaPF:hover{
+    color: white;
+    text-decoration: underline;
+}
+.autoriaPF:active{
+    color: indigo;
+}
+

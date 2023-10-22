@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fonthp';
+    src: url('fonts/HARRYP__.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: rgb(131, 129, 129);
+    background-image: url(imagens/R.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.part1{
+    color: rgb(0, 0, 0);
+}
+.part2{
+    color: rgb(0, 0, 0);
+    font-family: 'fonthp';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+.Título{
+    display: flex;
+}
+.filme01{
+    width: 270px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.filme02{
+    width: 270px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.filme03{
+    width: 270px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.filme04{
+    width: 270px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.filme05{
+    width: 270px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.filme01:hover{
+    transform: scale(0.9);
+    transition: all 0.1s;
+}
+.filme02:hover{
+    transform: scale(0.9);
+    transition: all 0.1s;
+}
+.filme03:hover{
+    transform: scale(0.9);
+    transition: all 0.1s;
+}
+.filme04:hover{
+    transform: scale(0.9);
+    transition: all 0.1s;
+}
+.filme05:hover{
+    transform: scale(0.9);
+    transition: all 0.1s;
+}
+.filmes{
+    display: flex;
+}
