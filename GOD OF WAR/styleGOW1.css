@@ -16,41 +16,47 @@ header {
     padding: 15px;
     border-radius: 10px;
     box-shadow: 3px 8px 16px 0px rgba(0, 0, 0, 0.5);
-
+    height: 109px;
 }
 
 header > h1 {
-    
     font-family: 'fontgow';
     text-align: center;
     color: silver;
-    
+    padding: 5px;
 }
 
 nav > a{
-   margin-left: 25px;
+   padding: 20px;
    text-decoration: none;
    color: white;
-   border: 15px;
-   margin: 0px;
+   margin-left: 10px;
+   border: 0px;
 }
 
 nav > a:hover{
     background-color: red;
-    height: 10px;
-    border-right: 5px;
-    border-color: red;
     border-style: solid;
+    border-radius: 5px;
+    
 }
 
 article > h1{
     text-align: center;
     margin: 5px;
+
 }
 article > p{
     padding: 20px;
     text-indent: 15px;
     font-size: 20px;
+}
+ p > a{
+    text-decoration: none;
+    color: red;
+}
+p > a:hover{
+    color: rgb(255, 128, 128);
 }
 main{
     margin: auto;

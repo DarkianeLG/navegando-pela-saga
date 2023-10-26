@@ -17,20 +17,22 @@ header {
     padding: 15px;
     border-radius: 10px;
     box-shadow: 3px 8px 16px 0px rgba(0, 0, 0, 0.5);
-
+    height: 109px;
 }
 header > h1 {
     
     font-family: 'fontgow';
     text-align: center;
     color: silver;
-    
+    padding: 5px;
 }
 
 nav > a {
-    margin: 10px;
-    text-decoration: none;
-    color: white;
+    padding: 20px;
+   text-decoration: none;
+   color: white;
+   margin-left: 10px;
+   border: 0px;
 
 }
 article > h2{
