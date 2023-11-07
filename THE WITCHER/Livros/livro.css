@@ -1,0 +1,69 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    margin-top: -20px;
+
+}
+
+nav{
+    background-color: black;
+    padding: 15px;
+    
+
+}
+main{
+    background-color: gray;
+    margin: auto;
+}
+
+h1{
+    color: white;  
+}
+
+p{
+    color: black;
+    text-align: justify;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
+
+}
+
+a:hover{
+    background-color: silver;
+    color: black;
+
+}
+.livro{
+    display: flex;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 85%;
+    margin-top: 20px;  
+    
+}
+.sobre_livro{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.infor{
+    color: grey;
+}
+
