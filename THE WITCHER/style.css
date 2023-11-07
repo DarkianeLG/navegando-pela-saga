@@ -7,94 +7,197 @@
     font-style: normal;
 
 }
-
-p {
-    margin-top: 30px;
-    color: silver;
-    font-size: 20px;
-   
+body{
+    background-color: #5f5f5f;
 }
-
-.frase {
-
-    margin-left: 500px;
-    width: 255px;
-    height: 150px;
-
+header{
+    background-color: black;
+    color: white;
+    font-family: 'Thewitcher', 'die nasty';
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
 }
-
-body {
-    background-image: url(Imagens/plano\ de\ fundo.jpg);
+header > h1{
+    text-align: center;
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 0;
+    font-size: 25px;
+}
+a:hover{
+    background-color: silver;
+    color: black;
+    border-radius: 5px;
+}
+main{
+    background-color: #9e9e9e;
+    margin: auto;
+    min-width: 300px;
+    max-width: 90%;
+    margin-top: 185px;
+    border-radius: 5px;
+    box-shadow: black 4px 7px 20px 0px;
+    padding: 1px 0px 3px;
+}
+article > h1{
+    font-family: 'Thewitcher', 'die nasty';
+}
+article > #Sinopse{
+    background-color: silver;
+    border-radius: 10px;
+    padding: 5px;
+}
+article > h1{
+    text-align: center;
+    font-size: 30px;
+}
+.elenco {
+    display: block;
+    margin-top: 20px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    height: 340px;
+    width: 50%; 
+    color: white;  
+}
+#part_elenco{
+    background-color: black;
+    background-image: url(imagens/plano\ de\ fundo\ série.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
-
+    width: 100%;
 }
-
-h2 {
-    font-family: 'Thewitcher', 'die nasty';
-    font-style: normal;
-
+.elenco > h2{
+    position: sticky;
+    left: 0;
 }
-
-.botao01 {
-
-    margin-left: 300px;
-    margin-top: 80px;
-
-}
-
-.botao01:hover {
-    transform: scale(1.2);
-    transition: all 0.1s;
-    cursor: pointer;
-    box-shadow: 0 0 5px 0 rgb(0, 0, 0);
-    border-radius: 200px;
-}
-
-.botao02 {
-    margin-top: 10px;
-    margin-left: 40px;
-}
-
-.botao02:hover {
-    transform: scale(1.2);
-    transition: all 0.1s;
-    cursor: pointer;
-    box-shadow: 0 0 5px 0px rgb(0, 0, 0);
-    border-radius: 200px;
-}
-
-.botao03 {
-    margin-top: 40px;
-    margin-left: 40px;
-
-
-}
-
-.botao03:hover {
-    transform: scale(1.2);
-    transition: all 0.1s;
-    cursor: pointer;
-    box-shadow: 0 0 5px 0 rgb(0, 0, 0);
-    border-radius: 200px;
-}
-
-.botoes {
+.images {
     display: flex;
 }
 
-.indentificadorBot01 {
-    margin-left: 65px;
-    color: white;
+.image01 {
+    margin-left: 30px;
 }
 
-.indentificadorBot02 {
+.image02 {
+    margin-left: 30px;
+}
+
+.image03 {
+    margin-left: 30px;
+}
+.image04 {
+    margin-left: 30px;
+}
+.image05 {
+    margin-left: 30px;
+}
+.image06 {
+    margin-left: 30px;
+}
+.image07 {
+    margin-left: 30px;
+}
+
+.image01:hover {
+    transform: scale(0.9);
+    transition: all 0.1s;
+}
+
+.image02:hover {
+    transform: scale(0.9);
+    transition: all 0.1s;
+}
+
+.image03:hover {
+    transform: scale(0.9);
+    transition: all 0.1s;
+}
+.image04:hover {
+    transform: scale(0.9);
+    transition: all 0.1s;
+}
+.image05:hover {
+    transform: scale(0.9);
+    transition: all 0.1s;
+}
+.image06:hover {
+    transform: scale(0.9);
+    transition: all 0.1s;
+}
+.image07:hover {
+    transform: scale(0.9);
+    transition: all 0.1s;
+}
+
+.nome01 {
+    margin-left: 15px;
+}
+
+.nome02 {
+    margin-left: 15px;
+}
+
+.nome03 {
+    margin-left: 5px;
+}
+.nome04 {
+    margin-left: 5px;
+}
+.nome05 {
+    margin-left: 5px;
+}
+.nome06 {
+    margin-left: 20px;
+}
+.nome07 {
+    margin-left: 5px;
+}
+
+.person01 {
+
+    font-family: 'Thewitcher', 'die nasty';
+    margin-left: 30px;
+}
+
+.person02 {
+    font-family: 'Thewitcher', 'die nasty';
+    margin-left: 30px;
+}
+
+.person03 {
+    font-family: 'Thewitcher', 'die nasty';
+    margin-left: 15px;
+}
+.person04 {
+    font-family: 'Thewitcher', 'die nasty';
+    margin-left: 15px;
+}
+.person05 {
+    font-family: 'Thewitcher', 'die nasty';
     margin-left: 25px;
-    color: white;
 }
-
-.indentificadorBot03 {
-    margin-left: 70px;
-    color: white;
+.person06 {
+    font-family: 'Thewitcher', 'die nasty';
+    margin-left: 20px;
+}
+.person07 {
+    font-family: 'Thewitcher', 'die nasty';
+    margin-left: 15px;
+}
+.elenco {
+    margin-left: 50px;
+}
+.Geralt{
+    display: flex;
 }
