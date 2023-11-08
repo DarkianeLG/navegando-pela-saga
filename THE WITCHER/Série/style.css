@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Thewitcher', 'die nasty';
-    src: url('die nasty.otf') format('opentype'), url('Thewitcher-jnOj.ttf') format('truetype');
+    src: url('die nasty.otf') format('opentype'), url('Thewitcher-jnOj.ttf') format('truetype'), url('DIENASTY.ttf') format('truetype'), url('DIENASTY.eot') format('opentype'), url('DIENASTY.woff') format('truetype');
     font-weight: normal;
     font-style: normal;
 
@@ -42,6 +42,7 @@ a:hover{
     color: black;
     border-radius: 5px;
 }
+
 main{
     background-color: #000000;
     margin: auto;
@@ -71,8 +72,18 @@ article > h1{
     overflow-y: hidden;
     overflow-x: scroll;
     height: 340px;
-    width: 50%; 
+    width: 60%; 
     color: white;  
+}
+::-webkit-scrollbar-track {
+    background-color: #535353;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+    background: #222222;
 }
 .elenco > h2{
     font-family: 'Thewitcher', 'die nasty';
@@ -83,6 +94,7 @@ article > h1{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    min-width: 300px;
 }
 .elenco > h2{
     position: sticky;
@@ -116,37 +128,64 @@ article > h1{
     margin-left: 30px;
 }
 
+
 .image01:hover {
     transform: scale(0.9);
     transition: all 0.1s;
+}
+.image01>a:hover{
+    background-color: black;
 }
 
 .image02:hover {
     transform: scale(0.9);
     transition: all 0.1s;
+    background-color: black;
+}
+.image02>a:hover{
+    background-color: black;
 }
 
 .image03:hover {
     transform: scale(0.9);
     transition: all 0.1s;
+    background-color: black;
+}
+.image03>a:hover{
+    background-color: black;
 }
 .image04:hover {
     transform: scale(0.9);
     transition: all 0.1s;
+    background-color: black;
+}
+.image04>a:hover{
+    background-color: black;
 }
 .image05:hover {
     transform: scale(0.9);
     transition: all 0.1s;
+    background-color: black;
+}
+.image05>a:hover{
+    background-color: black;
 }
 .image06:hover {
     transform: scale(0.9);
     transition: all 0.1s;
+    background-color: black;
+}
+.image06>a:hover{
+    background-color: black;
 }
 .image07:hover {
     transform: scale(0.9);
     transition: all 0.1s;
+    background-color: black;
 }
-
+.image07>a:hover{
+    background-color: black;
+}
 .nome01 {
     margin-left: 15px;
 }
@@ -216,7 +255,7 @@ article > h1{
 #geralt{
     margin: auto;
 }
-#geralt > p{
+#geralt, #yennefer > p{
     min-width: 300px;
     max-width: 90%;
     margin-left: 10px;

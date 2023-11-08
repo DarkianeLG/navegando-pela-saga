@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Thewitcher', 'die nasty';
-    src: url('die nasty.otf') format('opentype'), url('Thewitcher-jnOj.ttf') format('truetype');
+    src: url('die nasty.otf') format('opentype'), url('Thewitcher-jnOj.ttf') format('truetype'), url('DIENASTY.ttf') format('truetype'), url('DIENASTY.eot') format('opentype'), url('DIENASTY.woff') format('truetype');
     font-weight: normal;
     font-style: normal;
 
@@ -87,4 +87,13 @@ a:hover{
 .infor{
     color: rgb(71, 71, 71);
 }
-
+::-webkit-scrollbar-track {
+    background-color: #535353;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+    background: #222222;
+}
