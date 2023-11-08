@@ -35,14 +35,9 @@ nav{
 main{
     background-color: #5f5f5f;
     margin: auto;
-<<<<<<< HEAD
     min-width: 300px;
     max-width: 85%;
-=======
-    margin-top: 150px;
->>>>>>> 9b9b43fdd42803988eabc341cf1a690f20599249
 }
-
 h1{
     color: white;  
 }
