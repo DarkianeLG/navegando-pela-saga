@@ -55,17 +55,47 @@ main{
 }
 article > h1{
     font-family: 'Thewitcher', 'die nasty';
+    text-align: center;
+    font-size: 30px;
+    color: white;
 }
 article > #Sinopse{
     background-color: silver;
     border-radius: 10px;
     padding: 5px;
 }
-article > h1{
-    text-align: center;
-    font-size: 30px;
-    color: white;
+#botao_netflix{
+    all: unset;
+    display: flex;
+    margin-top: 30px;
 }
+#botao_netflix:hover{
+    background-color: red;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+#texto{
+    font-family:'Thewitcher', 'die nasty'; 
+    margin-left: 10px;
+    background:#000000;
+    color:#fff;
+    width:120px;
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+}
+#botao_netflix:hover #texto{
+    opacity: 1;
+}
+#bt_n{
+    margin: auto;
+    width: 100px;
+}
+
 .elenco {
     display: block;
     margin-top: 20px;
@@ -92,7 +122,7 @@ article > h1{
     background-color: black;
     background-image: url(imagens/plano\ de\ fundo\ série.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 99.5%;
     width: 100%;
     min-width: 300px;
 }
@@ -252,12 +282,10 @@ article > h1{
     text-align: center;
     font-family: 'Thewitcher', 'die nasty';
 }
-#geralt{
-    margin: auto;
-}
-#geralt, #yennefer > p{
+/*#geralt{
     min-width: 300px;
-    max-width: 90%;
-    margin-left: 10px;
+    max-width: 100%;
+}*/
+#geralt, #yennefer > p{
     font-size: 20px;
 }
