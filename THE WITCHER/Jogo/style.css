@@ -31,7 +31,7 @@ nav > a{
     margin: 0;
     font-size: 25px;
 }
-a:hover{
+nav > a:hover{
     background-color: silver;
     color: black;
     border-radius: 5px;
@@ -59,12 +59,14 @@ article > h1{
     height: 140px;
 }
 #sinopse{
-    color:white;
+    color:rgb(0, 0, 0);
     border-radius: 10px;
     text-align: justify;   
-    margin-left: 5px;
     margin-right: 5px;
     font-size: 20px;
+    background-color: #c5c4c4;
+    margin-top: -34px;
+    width: 100%;
 }
 .text{
     font-size: 20px;
@@ -74,10 +76,42 @@ article > h1{
 .botao{
     all: unset;
     cursor: pointer;
+
 }
 .sobre_thewitcher{
     display: flex;
+    width: 75%;
     margin: auto;
+    margin-left: 20%;
+}
+#info_plus{
+    margin: auto;
+}
+button > h2{
+    color: white;
+    text-align: center;
+    font-family: 'Die Nasty';
+}
+a{
+    text-decoration: none;
+}
+.sobre_thewitcher2{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    margin-left: 18%;
+}
+@media(max-width: 1000px){
+    .sobre_thewitcher{
+        display: block;
+        margin-left: 10%;
+    }
+    .sobre_thewitcher2{
+        display: block;
+    }
+    #mundo_aberto{
+        margin-left: 35px;
+    }
 }
 
 
