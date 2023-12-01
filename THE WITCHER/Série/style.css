@@ -7,7 +7,6 @@
     font-style: normal;
 
 }
-
 body{
     background-color: #5f5f5f;
 }
@@ -15,7 +14,7 @@ header{
     padding: 0;
     background-color: black;
     color: white;
-    font-family: 'Die Nasty';
+    font-family: 'Die Nasty', 'DieNasty-Regular';
     width: 100%;
     position: fixed;
     top: 0;
@@ -27,13 +26,13 @@ header > h1{
 }
 nav{
     background-color: rgb(0, 0, 0);
-    padding: 15px;
+    padding: 20px;
     margin: 0;
 }
 nav > a{
     color: white;
     text-decoration: none;
-    padding: 15px;
+    padding: 20px;
     margin: 0;
     font-size: 25px;
 }
@@ -41,28 +40,30 @@ a:hover{
     background-color: silver;
     color: black;
     border-radius: 5px;
+    transition: 0.4s;
 }
 
 main{
     background-color: #000000;
     margin: auto;
     min-width: 300px;
-    max-width: 90%;
+    max-width: 98%;
     margin-top: 185px;
     border-radius: 5px;
     box-shadow: black 4px 7px 20px 0px;
     padding: 1px 0px 3px;
 }
 article > h1{
-    font-family: 'Die Nasty';
+    font-family: 'Die Nasty', 'DieNasty-Regular';
     text-align: center;
     font-size: 30px;
     color: white;
 }
-article > #Sinopse{
+article > #sinopse{
     background-color: silver;
     border-radius: 10px;
     padding: 5px;
+    font-size: 20px;
 }
 #botao_netflix{
     all: unset;
@@ -79,7 +80,7 @@ article > #Sinopse{
     transition: all 0.3s;
 }
 #texto{
-    font-family:'Die Nasty'; 
+    font-family:'Die Nasty', 'DieNasty-Regular'; 
     margin-left: 10px;
     background:#000000;
     color:#fff;
@@ -116,7 +117,7 @@ article > #Sinopse{
     background: #222222;
 }
 .elenco > h2{
-    font-family: 'Die Nasty';
+    font-family: 'Die Nasty', 'DieNasty-Regular';
 }
 #part_elenco{
     background-color: black;
@@ -242,33 +243,33 @@ article > #Sinopse{
 
 .person01 {
 
-    font-family: 'Die Nasty';
+    font-family: 'Die Nasty', 'DieNasty-Regular';
     margin-left: 30px;
 }
 
 .person02 {
-    font-family: 'Die Nasty';
+    font-family: 'Die Nasty', 'DieNasty-Regular';
     margin-left: 30px;
 }
 
 .person03 {
-    font-family: 'Die Nasty';
+    font-family: 'Die Nasty', 'DieNasty-Regular';
     margin-left: 15px;
 }
 .person04 {
-    font-family: 'Die Nasty';
+    font-family: 'Die Nasty', 'DieNasty-Regular';
     margin-left: 15px;
 }
 .person05 {
-    font-family: 'Die Nasty';
+    font-family: 'Die Nasty', 'DieNasty-Regular';
     margin-left: 25px;
 }
 .person06 {
-    font-family: 'Die Nasty';
+    font-family: 'Die Nasty', 'DieNasty-Regular';
     margin-left: 20px;
 }
 .person07 {
-    font-family: 'Die Nasty';
+    font-family: 'Die Nasty', 'DieNasty-Regular';
     margin-left: 15px;
 }
 .elenco {
@@ -280,12 +281,19 @@ article > #Sinopse{
 }
 .sobre_personagens > h2{
     text-align: center;
-    font-family: 'Die Nasty';
+    font-family: 'Die Nasty', 'DieNasty-Regular';
 }
-/*#geralt{
-    min-width: 300px;
-    max-width: 100%;
-}*/
 #geralt, #yennefer > p{
     font-size: 20px;
+}
+@media(max-width:700px){
+    #geralt, #yennefer > p{
+        font-size: 16px;
+    }
+    article > #sinopse{
+        font-size: 16px;
+    }
+    nav > a{
+        padding: 15px;
+    }
 }
