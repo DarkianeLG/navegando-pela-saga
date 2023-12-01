@@ -1,0 +1,88 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #5f5f5f;
+    color: white;
+    box-sizing: border-box;
+}
+header{
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Die Nasty';
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+h1{
+    text-align: center;
+    font-family: 'Die Nasty'
+}
+nav{
+    background-color: rgb(0,0,0);
+    padding: 15px;
+    margin: 0;
+}
+nav > a{
+    color: white;
+    padding: 15px;
+    margin: 0;
+    font-size: 25px;
+}
+a:hover{
+    background-color: silver;
+    color: black;
+    border-radius: 5px;
+}
+main{
+    background-color: #000000;
+    margin: auto;
+    min-width: 300px;
+    max-width: 90%;
+    margin-top: 185px;
+    border-radius: 5px;
+    box-shadow: black 4px 7px 20px 0px;
+    padding: 1px 0px 3px;
+}
+article > h1{
+    font-family: 'Die Nasty';
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+iframe{
+    border: black;
+    border-style: solid;
+    height: 397px;
+    width: 99.4%;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    height: 140px;
+}
+#sinopse{
+    color:white;
+    border-radius: 10px;
+    text-align: justify;   
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+.text{
+    font-size: 20px;
+    text-align: center;
+
+}
+#cima{
+    display: flex;
+}
+#baixo{
+    display: flex;
+}
+
+
+
+
