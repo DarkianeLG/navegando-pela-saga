@@ -8,12 +8,13 @@
 }
 body{
     background-color: #0e1b25;
+    overflow-x: hidden;
 }
 header{
     background-color: #5174ad;
     padding: 0px;
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     background-image: url(imagens/plano\ de\ fundo\ header.jpg);
@@ -34,6 +35,8 @@ nav > a{
     padding: 20px;
     font-size: 20px;
     font-family: 'fontgow';
+    border-left: #87b1f5 1px solid;
+    border-right: #87b1f5 1px solid;
 }
 nav > a:hover{
     background-color: silver;
@@ -53,8 +56,7 @@ section.slider{
     width: 400%;
     height: auto;
     display: flex;
-    margin-top: 155px;
-    
+    margin-top: 200px;
 }
 .slider-content input, .img-mobile{
    display: none;
@@ -62,7 +64,6 @@ section.slider{
 .slide-box{
     width: 25%;
     height: auto;
-    position: relative;
     text-align: center;
     transition: 1s;
 }
@@ -121,15 +122,25 @@ section.slider{
     }
    
 }
-#title{
+.trechos{
+    display: flex;
+    width: 100%;
     margin: auto;
-    width: 210px;
+    margin-top: 80px;
 }
-main, #main_personagens{
+#txt{
+    font-family: 'fontgow';
+    color: #87b1f5;
+    text-align: center;
+    margin-top: 45px;
+}
+.trecho01:not(:first-child){
+    margin-left: 30px;
+}
+main{
     margin: auto;
     margin-top: 151px;
-    width: 95%;
-    
+    width: 98%;
 }
 .texto{
     /*background-image: linear-gradient(to bottom,#363636, rgb(39, 39, 39), rgb(29, 29, 29), rgb(26, 25, 25), rgb(14, 14, 14));*/
@@ -205,28 +216,99 @@ main, #main_personagens{
     background-position: center;
     margin-top: 50px;
     padding: 20px;
+    width: 95%;
 }
 @media(max-width: 950px){
+    /*body{
+        overflow-x: hidden;
+    }*/
     .quadro{
         display: block;
     }
     .txt{
-        width: 100%;
-        text-align: left;
+        width: 95%;
+        margin-left: -2px;
+    }
+    .txt > p{
         font-size: 16px;
     }
-    .img{
-        margin-left: 40px;
-        height: 400px;
-        width: 500px;
-    }
+   .img > img{
+        height: 240px;
+   }
     nav > a{
-        padding: 5px;
-        border: #87b1f5 1px solid;
-        padding: 0;
+        padding: 3px;
+        border-left: #87b1f5 1px solid;
     }
     nav{
-        padding: 16px;
+        padding: 3px;
         
     }
+    #introducao{
+        font-size: 16px;
+    }
 }
+@media(max-width: 1348px){
+    .trecho01 > img{
+        height: 300px;
+        width: 390px;
+    }
+}
+@media(max-width: 1329px){
+    .trecho01 > img{
+        height: 250px;
+        width: 300px;
+    }
+}
+@media(max-width: 1030px){
+    .trecho01 > img{
+        height: 200px;
+        width: 250px;
+    }
+}
+@media(max-width: 875px){
+    .trechos{
+        display: inline-block;
+    }
+    .trecho01:first-child{
+        margin-left: 30px;
+    }
+    .trecho01 > img{
+        width: 100%;
+        height: 20%;
+    }
+    .trecho01:not(:first-child){
+        margin-top: 30px;
+    }
+}
+/*Parte de personagens*/
+.sobre_personagens{
+    display: flex;
+}
+.sobre_personagens:not(:first-child){
+    margin-top: 35px;
+}
+.txt_persons{
+    color: white;
+    width: 98%;
+    margin-left: 35px;
+    font-size: 20px;
+}
+.txt_persons > h1{
+    font-family: 'fontgow';
+    color: #87b1f5;
+}
+#main_personagens{
+    margin: auto;
+    margin-top: 200px;
+    width: 98%;
+}
+@media(max-width: 695px){
+    .sobre_personagens{
+        display: block;
+    }
+    .txt_persons{
+        width: 95%;
+        margin-left: 3px;
+    }
+}
+

@@ -295,5 +295,6 @@ article > #sinopse{
     }
     nav > a{
         padding: 15px;
+        font-size: 16px;
     }
 }
