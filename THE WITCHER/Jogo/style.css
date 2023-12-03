@@ -41,7 +41,7 @@ main{
     background-color: #000000;
     margin: auto;
     min-width: 300px;
-    max-width: 95%;
+    max-width: 98%;
     margin-top: 185px;
     border-radius: 5px;
     box-shadow: black 4px 7px 20px 0px;
@@ -89,6 +89,7 @@ a{
 #sobre_witcher{
     display: flex;
 }
+/*Bestiário*/
 .besta{
     display: flex;
     margin: auto;
@@ -96,10 +97,20 @@ a{
 .informacao>p{
     font-size: 35px;
 }
-@media(max-width: 1390px){
-    #sobre_witcher{
+.informacao{
+    margin-left: 50px;
+}
+@media(max-width: 1400px){
+    .besta{
         display: block;
-        margin-left: 18%;
+    }
+    .informacao{
+        width: 90%;
+        margin-right: auto;
+        margin-left: none;
+    } 
+    div > img{
+        border-right: black 2px solid;
     }
 }
 
