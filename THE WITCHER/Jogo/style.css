@@ -36,6 +36,7 @@ nav > a:hover{
     background-color: silver;
     color: black;
     border-radius: 5px;
+    transition: 0.4s;
 }
 main{
     background-color: #000000;
@@ -58,7 +59,9 @@ article > h1{
     justify-content: center;
     width: 450px;
     height: 140px;
+
 }
+
 #sinopse{
     color:rgb(0, 0, 0);
     border-radius: 10px;
@@ -87,6 +90,11 @@ a{
     text-decoration: none;
 }
 #sobre_witcher{
+    display: block;
+    width: 98%;
+    
+}
+.pagina_inicial{
     display: flex;
 }
 /*Bestiário*/
@@ -95,12 +103,23 @@ a{
     margin: auto;
 }
 .informacao>p{
-    font-size: 35px;
+    font-size: 25px;
+    
 }
 .informacao{
     margin-left: 50px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    
 }
-@media(max-width: 1400px){
+.img{
+    border-right: 2px white solid;
+}
+#sobre_witcher{
+    width: 60%;
+}
+
+@media(max-width: 1300px){
     .besta{
         display: block;
     }
@@ -109,8 +128,35 @@ a{
         margin-right: auto;
         margin-left: none;
     } 
-    div > img{
-        border-right: black 2px solid;
+    .informacao > p{
+        font-size: 16px;
+    }
+    .img > img{
+        width: 60%;
+    }
+    .img{
+        border-right: 2px rgb(0, 0, 0) solid;
+    }
+}
+@media(max-width: 700px){
+    nav > a{
+        font-size: 16px;
+        padding: 15px;
+    }
+    nav{
+        padding: 15px;
+    }
+}
+@media(max-width: 843px){
+    #sobre_witcher{
+        display: inline-block;
+        margin: auto;
+    }
+    img{
+        width: 500px;
+    }
+    .botao{
+        width: 500px;
     }
 }
 
