@@ -86,9 +86,12 @@ section.slider{
     margin: auto;
     margin-top: 45px;
 }
-h1{
+h2, h1{
     color: white;
     font-family: 'Audiowide', cursive;
+}
+header{
+    background-image: linear-gradient(to left, #02050A, #0A0813, #0A0C1B, #0d1025, #171f5c);
 }
 header > h1{
     text-align: center;
@@ -181,13 +184,18 @@ footer{
     align-items: center;
     flex-direction: column;
     display: flex;
+    margin-top: 50px;
 }
 footer a{
     text-decoration: none;
     color: white;
 }
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
+}
 footer a:hover{
     cursor: pointer;
+    color: slategrey;
 }
 img{
     margin-top: 50px;
