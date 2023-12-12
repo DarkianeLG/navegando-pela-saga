@@ -272,3 +272,35 @@ section.slider{
         margin: auto;
     }
 }
+/*Parte personagens*/
+.main_personagens_tlou{
+    min-width: 350px;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.personagem{
+    display: flex;
+    margin: auto;
+}
+.personagem > .txt_personagem{
+    color: white;
+    margin-left: 30px;
+    width: 100%;
+    text-indent: 5px;
+}
+.personagem:not(:first-child){
+    margin-top: 25px;
+}
+@media(max-width: 803px){
+    .personagem{
+        display: block;
+    }
+    .personagem > .txt_personagem{
+        margin-left: 0;
+    }
+    .img{
+        width: 280px;
+        margin: auto;
+    }
+}
