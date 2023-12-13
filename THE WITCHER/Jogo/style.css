@@ -119,23 +119,70 @@ a{
     display: flex;
     border-bottom: rgb(0, 0, 0) 20px solid;
 }
+.mundo{
+    background-color: black ;
+}
 .main_mundo{
+    background-image: url(mundo/images-mundo/mundo_Witcher-p.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     margin: auto;
     background-color: black;
-    width: 98%;
-    margin-top: 120px;
+    max-width: 100%;
+    min-width: 760px;
+    margin-top: 200px;
 }
 .area{
     font-size: 25px;
     display: flex;
     margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.548);
+    border: 5px white solid;
+    min-width: 350px;
+    max-width: 100%;
 }
+#mundo_full{
+    display: flex;
+    justify-content: center;
+}
+@media(max-width:1400px){
+    .area{
+        display: block;
+    }
+    .info_area{
+        width: 711px;
+        margin: auto;
+    }
+    .info_area > img{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .txt_area{
+        text-align: left;
+    }
+    .txt_area > h1{
+        text-align: center;
+    }
+}
+    /*@media(max-width:753px){
+        .info_area > img{
+            width: 70%;
+            margin-top: 20px;
+        }
+    }*/
+/*.area{
+    background-image: url(mundo/images-mundo/mundo_Witcher-p.jpg);
+}*/
 .txt_area{
     margin-left: 25px;
-    text-align: center;
+    text-align: justify;
+    color: white;
+    text-indent: 20px;
 }
 .txt_area > h1{
     font-family: 'Die Nasty';
+    color: white;
 }
 .txt{
     color: white;
@@ -316,6 +363,7 @@ a{
         font-size: 16px;
     }
 }
+
 
 
 
