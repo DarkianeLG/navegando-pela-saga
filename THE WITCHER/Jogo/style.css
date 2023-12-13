@@ -160,6 +160,7 @@ a{
     }
     .txt_area{
         text-align: left;
+        
     }
     .txt_area > h1{
         text-align: center;
@@ -179,6 +180,7 @@ a{
     text-align: justify;
     color: white;
     text-indent: 20px;
+    width: 93%;
 }
 .txt_area > h1{
     font-family: 'Die Nasty';
