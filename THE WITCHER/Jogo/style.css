@@ -119,6 +119,24 @@ a{
     display: flex;
     border-bottom: rgb(0, 0, 0) 20px solid;
 }
+.main_mundo{
+    margin: auto;
+    background-color: black;
+    width: 98%;
+    margin-top: 120px;
+}
+.area{
+    font-size: 25px;
+    display: flex;
+    margin-top: 20px;
+}
+.txt_area{
+    margin-left: 25px;
+    text-align: center;
+}
+.txt_area > h1{
+    font-family: 'Die Nasty';
+}
 .txt{
     color: white;
     margin-left: 30px;
