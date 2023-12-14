@@ -182,4 +182,53 @@ body {
         font-size: 20px;
     }
 }
+/*Jogo*/
+.main_jogo{
+    min-width: 350px;
+    max-width: 98%;
+    background-color: white;
+    margin-top: 60px;
+    margin: auto;
+}
+.sobre:not(:first-child){
+    margin-left: 20px;
+}
+.sobre{
+    margin-top: 60px;
+}
+.txt_legacy{
+    width: 450px;
+    text-align: center;
+}
+.qualquer{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    margin-top: 60px;
+}
+.plus{
+    background-image: url(../imagens/hogwarts-legacy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+@media(max-width:700px){
+    .qualquer{
+        display: block;
+    }
+    .img_legacy{
+        width: 100%;
+        margin: 0;
+    }
+    .img_legacy > img{
+        width: 350px;
+    }
+    .txt_legacy{
+        width: 100%;
+    }
+    .sobre{
+        width: 100%;
+        margin: 0;
+    }
+}
 
