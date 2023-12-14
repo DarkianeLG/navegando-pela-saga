@@ -3,23 +3,29 @@ body{
     color: white;
 }
 header{
-    padding: 0;
+    padding: 10px;
     background-color: black;
     color: white;
-    font-family: 'Die Nasty';
-    width: 100%;
-    position: fixed;
+    max-width: 100%;
+    min-width: 320px;
     top: 0;
     left: 0;
+    right: 0;
 }
 header > h1{
     text-align: center;
+    font-family: 'Die Nasty', 'DieNasty-Regular';
 }
 
 nav{
-    background-color: rgb(0,0,0);
+    background-color: rgb(0, 0, 0);
     padding: 20px;
     margin: 0;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    font-family: 'Die Nasty', 'DieNasty-Regular';
 }
 nav > a{
     text-decoration: none;
@@ -42,7 +48,7 @@ nav > a:hover{
     background-color: black;
     min-width: 300px;
     max-width: 98%;
-    margin-top: 180px;
+    margin-top: 60px;
     
 }
 article > h1{
@@ -112,7 +118,7 @@ a{
     margin: auto;
     background-color: black;
     width: 98%;
-    margin-top: 120px;
+    margin-top: 60px;
 }
 /*Parte mundo*/
 .mundo_info{
@@ -131,7 +137,7 @@ a{
     background-color: black;
     max-width: 100%;
     min-width: 400px;
-    margin-top: 200px;
+    margin-top: 60px;
 }
 .area{
     font-size: 25px;
@@ -243,7 +249,7 @@ a{
     margin: auto;
     background-color: black;
     width: 98%;
-    margin-top: 180px;
+    margin-top: 60px;
 }
 .info_persons{
     display: flex;
@@ -302,6 +308,9 @@ a{
     .informacao > p{
         font-size: 16px;
     }
+    .informacao{
+        margin: auto;
+    }
     .img{
         border-right: 2px rgb(0, 0, 0) solid;
     }
@@ -328,20 +337,9 @@ a{
     .persons{
         display: block;
     }
-    .info_geralt > img{
-        margin-left: 40px;
-    }
-    .info_ciri > img{
-        margin-left: 40px;
-    }
-    .info_yennefer > img{
-        margin-left: 40px;
-    }
-    .info_vesemir > img{
-        margin-left: 40px;
-    }
-    .info_triss > img{
-        margin-left: 40px;
+    .info_person{
+        width: 282px;
+        margin: auto;
     }
     .txt_persons{
         font-size: 16px;

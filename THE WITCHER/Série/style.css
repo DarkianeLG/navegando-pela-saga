@@ -15,7 +15,6 @@ header{
     padding: 10px;
     background-color: black;
     color: white;
-    font-family: 'Die Nasty', 'DieNasty-Regular';
     max-width: 100%;
     min-width: 320px;
     top: 0;
@@ -24,6 +23,8 @@ header{
 }
 header > h1{
     text-align: center;
+    font-family: 'Die Nasty', 'DieNasty-Regular';
+
 }
 nav{
     background-color: rgb(0, 0, 0);
@@ -33,6 +34,7 @@ nav{
     top: 0;
     right: 0;
     left: 0;
+    font-family: 'Die Nasty', 'DieNasty-Regular';
 }
 nav > a{
     color: white;
