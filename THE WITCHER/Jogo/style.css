@@ -130,7 +130,7 @@ a{
     margin: auto;
     background-color: black;
     max-width: 100%;
-    min-width: 760px;
+    min-width: 400px;
     margin-top: 200px;
 }
 .area{
@@ -139,19 +139,19 @@ a{
     margin-top: 20px;
     background-color: rgba(0, 0, 0, 0.548);
     border: 5px white solid;
-    min-width: 350px;
+    min-width: 400px;
     max-width: 100%;
 }
 #mundo_full{
     display: flex;
     justify-content: center;
 }
-@media(max-width:1400px){
+@media(max-width:1249px){
     .area{
         display: block;
     }
     .info_area{
-        width: 711px;
+        width: 100%;
         margin: auto;
     }
     .info_area > img{
