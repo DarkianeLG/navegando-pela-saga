@@ -12,7 +12,7 @@ header {
     background-color: black;
     color: white;
     max-width: 100%;
-    min-width: 320px;
+    min-width: 470px;
     top: 0;
     left: 0;
     right: 0;
@@ -31,6 +31,8 @@ nav{
     right: 0;
     left: 0;
     font-family: 'fonthp';
+    min-width: 450px;
+    max-width: 100%;
 }
 nav > a{
     color: white;
@@ -184,8 +186,8 @@ body {
 }
 /*Jogo*/
 .main_jogo{
-    min-width: 350px;
-    max-width: 98%;
+    min-width: 480px;
+    max-width: 100%;
     background-color: rgb(0, 0, 0);
     margin-top: 60px;
     margin: auto;
@@ -206,7 +208,7 @@ body {
     margin-left: 20px;
 }
 .txt_legacy{
-    width: 80%;
+    width: 100%;
     text-align: center;
     margin: auto;
     font-size: 20px;
@@ -261,33 +263,38 @@ body {
     .qualquer{
         display: block;
         margin: 0;
-        width: 200px;
+        width: 380px;
+        margin: auto;
     }
     .img_legacy{
-        width: 100%;
+        width: 350px;
         margin: 0;
     }
     .img_legacy > img{
-        width: 350px;
+        width: 100%;
     }
     .txt_legacy{
         width: 100%;
     }
     .sobre{
-        width: 100%;
+        width: 350px;
         margin: auto;
     }
     .sobre:first-child{
         margin-left: 20px;
     }
     .plus{
-        height: 1350px;
+        height: 1550px;
+        width: 100%;
     }
     .btn_legacy{
         margin-top: 20px;
     }
     .btn_legacy{
         width: 300px;
+    }
+    body{
+        overflow-x: hidden;
     }
 }
 @media(max-width:1700px){
