@@ -302,4 +302,23 @@ body {
         width: 450px;
     }
 }
+@media(max-width:1024px){
+    .qualquer{
+        display: block;
+        margin: 0;
+        width: 380px;
+        margin: auto;
+        
+    }
+    .plus{
+        height: 1650px;
+        width: 100%;
+        margin-top: 60px;
+    }
+    .sobre{
+        width: 350px;
+    }
+   
+}
+
 
