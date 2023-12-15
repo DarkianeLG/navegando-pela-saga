@@ -208,11 +208,17 @@ body {
     width: 80%;
     text-align: center;
     margin: auto;
+    font-size: 20px;
     
 }
 .introducao{
     background-color: rgba(0, 0, 0, 0.712);
     color: white;
+    font-size: 20px;
+    text-align: center;
+}
+#introducao{
+    font-family: 'fonthp';
 }
 .qualquer{
     display: flex;
@@ -232,7 +238,7 @@ body {
     .qualquer{
         display: block;
         margin: 0;
-        width: 350px;
+        width: 200px;
     }
     .img_legacy{
         width: 100%;
@@ -250,6 +256,11 @@ body {
     }
     .sobre:first-child{
         margin-left: 20px;
+    }
+}
+@media(max-width:1700px){
+    .img_legacy{
+        width: 450px;
     }
 }
 
