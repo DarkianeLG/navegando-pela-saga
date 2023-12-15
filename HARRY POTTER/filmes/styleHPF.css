@@ -200,6 +200,7 @@ body {
     margin-top: 60px;
     color: white;
     background-color: #0000007c;
+    width: 350px;
 }
 .sobre:not(:first-child){
     margin-left: 20px;
@@ -233,7 +234,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 700px;
+    height: 750px;
 }
 .btn_legacy{
     height: 50px;
